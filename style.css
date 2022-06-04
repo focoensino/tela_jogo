@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  margin-inline: auto;
+}
+body {
+  background: linear-gradient(180deg, #0e1647 0%, #0a1033 100%);
+}
+header {
+  width: 375px;
+  height: 812px;
+  text-align: center;
+}
+h1 {
+  color: hsla(220, 39%, 90%, 1);
+  margin-left: 57px;
+  margin-right: 59px;
+  margin-top: -85px;
+
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+}
+h3 {
+  color: hsla(220, 39%, 90%, 1);
+  margin-top: 16px;
+  margin-left: 66px;
+  margin-right: 62px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+button {
+  color: hsla(220, 39%, 90%, 1);
+  background-color: hsla(348, 80%, 50%, 1);
+  width: 274px;
+  height: 56px;
+
+  border: 1px solid hsla(348, 67%, 36%, 1);
+  border-radius: 8px;
+  margin-top: 50px;
+  margin-left: 51px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pai {
+  position: absolute;
+  z-index: -1;
+}
+.img_discord {
+  padding-top: 19.13px;
+  padding-bottom: 10px;
+  padding-right: 16px;
+  text-align: center;
+  border-right: 1px solid hsla(348, 67%, 36%, 1);
+}
+.letras {
+  text-align: center;
+  padding-right: 40px;
+  padding-left: 16px;
+}
